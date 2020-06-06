@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+ 
+
+.containerBar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 2px solid black;
+}
+
+.Logo {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 3em;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+    transition: all 2s;
+}
+
+
+.Navbar {
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-size: 1em
+
+}
+
+p {
+    align-self: flex-end;
+    font-family: 'Metal Mania', cursive;
+    margin: 5px;
+}
+
+.Logo > p {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 0.5em
+}

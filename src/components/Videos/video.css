@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1em;
+    padding: 5px;
+    grid-gap: 10px;
+    border-bottom: 1px solid black;
+    transition: all 2s;
+
+}
+
+.describe {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Metal Mania', cursive;
+
+}
+
+.title {
+    font-size: 50px
+}
+
+.description {
+    max-height: 290px;
+    overflow-y: auto;
+
+}
+
+.container:hover {
+    transform: scale(1.1)
+}
+
+
