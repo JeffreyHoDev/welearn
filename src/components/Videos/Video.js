@@ -5,7 +5,7 @@ import ReactPlayer from 'react-player';
 const VideoPlayer = (props) => {
     return (
         <div className = "container">
-            <ReactPlayer url={props.url} controls='true' />
+            <ReactPlayer url={props.url} controls={true} />
             <div className="describe">
                 <div className="title">{props.title}</div>
                 <div className="description">{props.description}</div>
