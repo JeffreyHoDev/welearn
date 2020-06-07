@@ -21,6 +21,7 @@ class App extends Component  {
   }
 
   loadUserState = (data) => {
+    
     this.setState({
       'username': data[0].username,
       'email': data[0].email,
